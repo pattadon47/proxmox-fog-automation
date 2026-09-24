@@ -75,6 +75,29 @@ Proxmox VE
 
 Repository นี้จัดเก็บเฉพาะสคริปต์และตัวอย่างการตั้งค่าที่ผ่านการลบข้อมูลสำคัญแล้ว ไม่มี Password, API Token, LINE Token, อิมเมจระบบปฏิบัติการ หรือข้อมูลเครือข่ายจริงขององค์กร
 
+## ภาพตัวอย่างการทำงาน
+
+### เครื่องเสมือนบน Proxmox VE
+![Proxmox Virtual Machines](docs/screenshots/01-proxmox-vms.png)
+
+### การตั้งค่าเครือข่ายและ VLAN
+![VM Network and VLAN](docs/screenshots/02-vm-network-vlan.png)
+
+### การจัดการอิมเมจใน FOG Project
+![FOG Images](docs/screenshots/03-fog-images.png)
+
+### พื้นที่จัดเก็บอิมเมจบน NAS
+![NAS Storage](docs/screenshots/04-nas-storage.png)
+
+### ขั้นตอน Capture และ Deploy
+![Capture and Deploy Progress](docs/screenshots/05-capture-deploy-progress.png)
+
+### การติดตั้งพร้อมกันแบบ Multicast
+![Multicast Deployment](docs/screenshots/06-multicast-deployment.png)
+
+### การแจ้งเตือนผ่าน LINE
+![LINE Notification](docs/screenshots/08-line-notification.png)
+
 ## วัตถุประสงค์ทางการศึกษา
 
 โครงการนี้จัดทำขึ้นเพื่อประกอบการศึกษาและนำเสนอแนวทางการประยุกต์ใช้ Virtualization, Network Boot, System Imaging, Network Segmentation และ Automation ในงาน IT Infrastructure
