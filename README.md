@@ -27,6 +27,15 @@
 7. แจ้งผลการทำงานให้ผู้ดูแลระบบผ่าน LINE
 8. นำอิมเมจไป Deploy ให้เครื่องลูกแบบเครื่องเดียวหรือหลายเครื่องพร้อมกัน
 
+## เอกสารโครงการ
+
+- [โครงสร้างและการออกแบบระบบ](docs/architecture.md)
+- [ขั้นตอนการทดสอบระบบ](docs/testing.md)
+- [แนวทางแก้ไขปัญหา](docs/troubleshooting.md)
+- [สคริปต์ Automation](scripts/auto_capture.sh)
+- [ตัวอย่างไฟล์ตั้งค่า](config-examples/fog_automation.env.example)
+
+
 ## ภาพรวมระบบ
 
 ```text
