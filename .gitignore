@@ -1,0 +1,28 @@
+# Secret configuration
+.env
+*.env
+fog_automation.env
+secrets/
+*.key
+*.pem
+
+# Virtual machines and operating system images
+*.raw
+*.qcow2
+*.vmdk
+*.vma
+*.vma.zst
+*.iso
+*.img
+
+# Backup and log files
+backup/
+backups/
+*.log
+*.tmp
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
